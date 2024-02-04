@@ -23,9 +23,9 @@ enableRobotsTXT = true
   # https://github.com/schnerring/hugo-theme-gruvbox/issues/34#issuecomment-1235870375
   #defaultTheme = "light"
   # gray red green yellow blue purple aqua orange, defaults to blue
-  #themeColor = "blue"
+  themeColor = "blue"
   # soft medium hard, defaults to medium
-  #themeContrast = "medium"
+  themeContrast = "medium"
   author = "Quan Hong Tran"
   subtitle = "Portfolio"
   description = "A retro-looking Hugo theme inspired by gruvbox. The pastel colors are high contrast, easily distinguishable, pleasing to the eye, and feature light and dark color palettes."
@@ -42,7 +42,8 @@ enableRobotsTXT = true
       "javascript",
       "bash",
       "diff",
-      "toml"
+      "toml",
+      "python"
     ]
     plugins = [
       "normalize-whitespace",
