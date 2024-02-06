@@ -1,4 +1,4 @@
-baseURL = "http://localhost"
+baseURL = "http://localhost:1313/quan238"
 copyright = "Copyright © 2024"
 title = "Where to keep interesting Discoveries"
 #paginate = 10
@@ -137,6 +137,8 @@ enableRobotsTXT = true
     name = "About"
     url = "/about"
     weight = 30
+
+
 
 [languages]
   [languages.en]

@@ -1,4 +1,18 @@
 <div class="sidebar">
+  {{ $page :=  split $.Page.RelPermalink "/" }}
+  {{ if and (strings.Contains $.Page.RelPermalink "blog") (eq (len $page) 4) }}
+    <aside class="toc">
+      <nav>
+        <p class="sidebar__heading">Tags</p>
+        {{ range .Site.Taxonomies.tags }}
+          <li>
+            <a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}
+          </li>
+        {{ end }}
+      </nav>
+    </aside>
+  {{ end }}
+
   {{ if .Params.toc }}
     {{ with .TableOfContents }}
       <aside class="toc">

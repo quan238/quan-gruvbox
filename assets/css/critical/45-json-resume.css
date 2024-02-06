@@ -15,7 +15,8 @@
 
   .jr__date,
   .jr__date-range,
-  .jr-work__location {
+  .jr-work__location,
+  .jr-certificates__date {
     flex-grow: 1;
     text-align: right;
   }

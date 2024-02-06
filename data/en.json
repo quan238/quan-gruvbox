@@ -46,45 +46,17 @@
   "work": [
     {
       "name": "Fullerton Health Group",
-      "location": "Remote,Vietnam",
+      "location": "Remote, Vietnam",
+      "description": "Awesome compression company",
       "position": "Middle Software Engineer",
-      "url": "",
+      "url": "http://piedpiper.com",
       "startDate": "2013-12-01",
       "endDate": "2014-12-01",
-      "summary": "",
+      "summary": "Pied Piper is a multi-platform technology based on a proprietary universal compression algorithm that has consistently fielded high Weisman Scores™ that are not merely competitive, but approach the theoretical limit of lossless compression.",
       "highlights": [
-        "Leaded a teams of 3 developers in internal projects - Claims Portal, successfully deliver, and increased the performance of managing customer’s claims.",
-        "Contributed to refining the coding style and improving code maintainability and readability.",
-        "Tech stack: NestJS, MySQL, Sequelize, Go (minor)"
-      ]
-    },
-    {
-      "name": "South Asia Services",
-      "location": "Vietnam",
-      "position": "Junior Full-stack Developer",
-      "url": "",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "",
-      "highlights": [
-        "Contributed to the successful migration backend sever ExpressJS into NestJS, and migrated more than 60% from raw SQL to ORM (sequelize).",
-        "Developed authentication & authorization features using Keycloak including email OTP.",
-        "Develop UI features, and implemented API with React.",
-        "Tech stack: React, MUI, NodeJS, Keycloak, MongoDB, Mongoose , NestJS, OracleDB, SQL"
-      ]
-    },
-    {
-      "name": "Zigvy Corporation",
-      "location": "Vietnam",
-      "position": "Intern/Fresher Frontend Developer",
-      "url": "",
-      "startDate": "2013-12-01",
-      "endDate": "2014-12-01",
-      "summary": "",
-      "highlights": [
-        "Implemented the manual configuration column template feature to HR Forte",
-        "Developed the feature that allowed users to export employees’s reports in Excel and Word format",
-        "Tech stack: React, Ant Design"
+        "Build an algorithm for artist to detect if their music was violating copy right infringement laws",
+        "Successfully won Techcrunch Disrupt",
+        "Optimized an algorithm that holds the current world record for Weisman Scores"
       ]
     }
   ],
@@ -101,19 +73,9 @@
   ],
   "education": [
     {
-      "institution": "Auckland University of Technology New Zealand",
+      "institution": "University of Oklahoma",
       "url": "https://www.ou.edu/",
-      "area": "Computer & Information Science AUT",
-      "studyType": "Bachelor",
-      "startDate": "2019",
-      "endDate": "2023",
-      "score": "GPA: 3.48/4.0",
-      "courses": []
-    },
-    {
-      "institution": "Kajaani University of Applied Sciences",
-      "url": "https://www.ou.edu/",
-      "area": "Business Administration",
+      "area": "Information Technology",
       "studyType": "Bachelor",
       "startDate": "2011-06-01",
       "endDate": "2014-01-01",
@@ -129,18 +91,10 @@
       "summary": "There is no spoon."
     }
   ],
-  "certificates": [
-    {
-      "name": "IBM Data Science Professional Certificate",
-      "date": "2014-01-01",
-
-      "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)"
-    }
-  ],
   "publications": [
     {
-      "name": "IBM Data Science Professional Certificate",
-      "publisher": "",
+      "name": "Video compression for 3d media",
+      "publisher": "Hooli",
       "releaseDate": "2014-10-01",
       "url": "http://en.wikipedia.org/wiki/Silicon_Valley_(TV_series)",
       "summary": "Innovative middle-out compression algorithm that changes the way we store data."
