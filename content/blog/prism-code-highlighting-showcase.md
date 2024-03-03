@@ -1,5 +1,5 @@
 ---
-title: "Prism Code Highlighting Showcase"
+title: "What things I do in R&D Capstone Project (Bachelor Degree)"
 date: "2021-07-28T04:25:37+02:00"
 comments: false
 socialShare: true
@@ -9,11 +9,6 @@ toc: true
 This theme uses [Prism](https://prismjs.com/) for code highlighting. Other Hugo
 themes usually include a pre-configured version of Prism, which complicates
 updates and clutters the source code base with third-party JavaScript.
-
-Only the Prism features you select in the Hugo site configuration are bundled by
-the build process. This way, Prism can be easily updated with `npm` and the
-size of the JavaScript and CSS bundles are minimized by only including what you
-need.
 
 <!--more-->
 
@@ -51,12 +46,15 @@ The following languages are available:
 ## Plugins
 
 Before using a plugin in production, read its documentation and test it
-thoroughly. E.g., the [`remove-initial-line-feed` plugin](https://prismjs.com/plugins/remove-initial-line-feed/)
-is still available despite being deprecated in favor of [`normalize-whitespace`](https://prismjs.com/plugins/normalize-whitespace/).
+thoroughly. E.g., the
+[`remove-initial-line-feed` plugin](https://prismjs.com/plugins/remove-initial-line-feed/)
+is still available despite being deprecated in favor of
+[`normalize-whitespace`](https://prismjs.com/plugins/normalize-whitespace/).
 
 Many Prism plugins require using `<pre>` tags with custom attributes. Hugo uses
 Goldmark as Markdown handler, which by default doesn't render raw inline HTML,
-so make sure to enable [`unsafe`](https://gohugo.io/getting-started/configuration-markup#goldmark)
+so make sure to enable
+[`unsafe`](https://gohugo.io/getting-started/configuration-markup#goldmark)
 rendering if required:
 
 ```toml

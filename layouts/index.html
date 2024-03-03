@@ -1,6 +1,34 @@
 {{ define "main" }}
   <div class="content-section">
     <h1>{{ .Title | markdownify }}</h1>
+    <p>
+      👋 Welcome to my portfolio showcasing my journey as a Full-Stack Data
+      Scientist!
+    </p>
+    <ul>
+      <li>
+        Browse through my posts where I share my insights and discoveries in
+        data science.
+      </li>
+      <li>
+        Explore my applications to see how I implement data-driven solutions.
+      </li>
+      <li>
+        Discovers about my problem-solving approach and how I tackle real-world
+        challenges.
+      </li>
+    </ul>
+    <!-- {{ with $.Site.Params.socialShare }}
+      <div class="social-share">
+        {{ range . }}
+          <a class="social-share__item" target="_blank" rel="noreferrer">
+            {{ partial (printf "icons/%s" .iconSuite) .iconName }}
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+     -->
+
     {{ with .Content }}
       <div>{{ . }}</div>
     {{ end }}

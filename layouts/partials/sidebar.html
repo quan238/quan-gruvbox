@@ -27,8 +27,7 @@
 
   {{ $cv := index $.Site.Data.json_resume $.Site.Language.Lang }}
   {{ if $cv.basics }}
-    {{ $s := slice "/" "/about/" "/cv/" }}
-    {{ if not (in $.Page.RelPermalink "/blog/") }}
+    {{ if (in $.Page.RelPermalink "/cv/") }}
       <aside class="bio">
         {{ partial "json-resume/basics.html" . }}
 
