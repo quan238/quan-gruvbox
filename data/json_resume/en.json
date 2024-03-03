@@ -2,11 +2,11 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Quan Hong Tran",
-    "label": "Software Engineer, Data Scienctist",
+    "label": "",
     "image": "https://quan832.github.io/quan-gruvbox/avatar.jpeg",
     "email": "quantran2381@gmail.com",
-    "phone": "(912) 555-4321",
-    "summary": "Working as a software engineer with 2 years of experience developing innovative software solutions. Currently, I am pursuing a business bachelor's degree in Finland while actively working towards a career shift into the Data science field. I am a passionate and enthusiastic person who continually tries my best to achieve the set goals.",
+    "phone": "(+358) 417286433",
+    "summary": "",
     "location": {
       "city": "Finland"
     },
