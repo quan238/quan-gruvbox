@@ -5,7 +5,7 @@
 }
 
 html {
-  font-family: var(--font-serif);
+  font-family: var(--font-sans-serif);
   font-size: 1rem;
   scroll-behavior: smooth;
 }
